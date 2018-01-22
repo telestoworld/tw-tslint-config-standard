@@ -1,15 +1,15 @@
 # TSLint Config Standard
 
-[![NPM version](https://img.shields.io/npm/v/tslint-config-standard.svg?style=flat)](https://npmjs.org/package/tslint-config-standard)
-[![NPM downloads](https://img.shields.io/npm/dm/tslint-config-standard.svg?style=flat)](https://npmjs.org/package/tslint-config-standard)
-[![Build status](https://img.shields.io/travis/blakeembrey/tslint-config-standard.svg?style=flat)](https://travis-ci.org/blakeembrey/tslint-config-standard)
+[![NPM version](https://img.shields.io/npm/v/dcl-tslint-config-standard.svg?style=flat)](https://npmjs.org/package/dcl-tslint-config-standard)
+[![NPM downloads](https://img.shields.io/npm/dm/dcl-tslint-config-standard.svg?style=flat)](https://npmjs.org/package/dcl-tslint-config-standard)
+[![Build status](https://img.shields.io/travis/decentraland/tslint-config-standard.svg?style=flat)](https://travis-ci.org/decentraland/tslint-config-standard)
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/)
 
 ## Installation
 
 ```sh
-npm install tslint-config-standard --save-dev
+npm install dcl-tslint-config-standard --save-dev
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ In `tslint.json`:
 
 ```json
 {
-  "extends": "tslint-config-standard"
+  "extends": "dcl-tslint-config-standard"
 }
 ```
 
