@@ -1,6 +1,6 @@
 {
   "name": "dcl-tslint-config-standard",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "A TSLint config for JavaScript Standard Style",
   "main": "tslint.js",
   "files": [
