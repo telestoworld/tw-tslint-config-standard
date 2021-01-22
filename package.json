@@ -13,7 +13,8 @@
     "lint:fix": "standard --fix",
     "test:gen": "GENERATE_ASSETS=true blue-tape test/index.js",
     "test:spec": "blue-tape test/index.js | tap-spec",
-    "test": "npm run lint && npm run test:spec"
+    "test": "npm run lint && npm run test:spec",
+    "build": "npm run lint"
   },
   "repository": {
     "type": "git",
