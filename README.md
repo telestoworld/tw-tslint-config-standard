@@ -22,7 +22,7 @@ In `tslint.json`:
 }
 ```
 
-**P.S.** Some TSLint rules may require the use of `--project`.
+**P.S.** Some TSLint rules may require the use of `--project`
 
 ### Rules
 
