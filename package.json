@@ -14,7 +14,9 @@
     "test:gen": "GENERATE_ASSETS=true blue-tape test/index.js",
     "test:spec": "blue-tape test/index.js | tap-spec",
     "test": "npm run lint && npm run test:spec",
-    "build": "npm run lint"
+    "build": "npm run lint",
+    "semantic-release": "semantic-release",
+    "commit-msg": "validate-commit-msg"
   },
   "repository": {
     "type": "git",
@@ -41,10 +43,13 @@
   "devDependencies": {
     "@types/node": "^9.6.0",
     "blue-tape": "^1.0.0",
+    "husky": "^4.3.8",
+    "semantic-release": "^17.3.6",
     "standard": "^16.0.3",
     "tap-spec": "^5.0.0",
     "tslint": "^5.9.1",
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.3",
+    "validate-commit-msg": "^2.14.0"
   },
   "dependencies": {
     "tslint-clean-code": "^0.2.5",
