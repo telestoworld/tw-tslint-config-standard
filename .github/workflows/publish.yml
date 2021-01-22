@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@master
       - run:  npm install
       - name: Publish
-        uses: menduz/oddish-action@2.0.1
+        uses: menduz/oddish-action@master
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
